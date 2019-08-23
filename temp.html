@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>temp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
+            aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Latitude</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Plots <span class="caret"></span></a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bg-1 text-center">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="box">
+            <h1 class="margin">Max Temperature</h1>
+            <hr />
+            <img src="Fig1.png" class="img-responsive margin" style="width:80%" alt="Image">
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
+              More interestingly, however, is the fact that the soouthern hemisphere tends to be warmer this time of
+              year than the northern hemisphere. This may be due to the tilt of the earther at the time of the year this
+              data was gathered.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <h2 class="margin">Visualizations</h2>
+            <!-- <hr /> -->
+            <a href="temp.html"><img src="Fig1.png" class="img-responsive margin" alt="Image"></a>
+            <a href="humidity.html"><img src="Fig2.png" class="img-responsive margin" alt="Image"></a>
+            <a href="cloudiness.html"><img src="Fig3.png" class="img-responsive margin" alt="Image"></a>
+            <a href="wind.html"><img src="Fig4.png" class="img-responsive margin" alt="Image"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

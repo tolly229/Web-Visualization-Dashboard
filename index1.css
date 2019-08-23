@@ -1,0 +1,48 @@
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+  background-color: #fff;
+  color: #3f26ac;
+}
+.bg-2 { 
+  background-color: #2f2f2f;
+  color: #fff;
+}
+.navbar-header {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    color: #fff;
+    background: #1abc9c;
+    padding-left: 20px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+
+h1 {
+	color: rgb(79, 180, 158);
+	font-weight: bold;
+	font-style: italic;
+    font-size: 30px; 
+}
+h2 {
+	color: rgb(56, 129, 113);
+	font-weight: bold;
+	font-style: italic;
+    font-size: 28px; 
+}
